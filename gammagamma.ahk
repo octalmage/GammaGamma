@@ -5,7 +5,7 @@ onexit, cleanup
 
 max=5800
 min=4000
-weatherurl = http://www81.wolframalpha.com/input/?i=sun
+weatherurl = http://www.wolframalpha.com/input/?i=sun
 alt=http://www.wolframalpha.com/input/?i=Sun+next+maximum+altitude+time
 ProgramName=GammaGamma
 cur=6500
@@ -449,7 +449,7 @@ if sinceset>1
 	gui, color, 0xe4e3e1,
 	gui,add,picture, y-2 x-2 0xE w522 vtitlebar h25 ,
 	gui,font, bold c333333
-	gui,add, text,xm bold y5 +backgroundtrans, %ProgramName%
+	gui,add, text,xm y5 +BackgroundTrans, %ProgramName%
 	gui,font, normal c666666
 	gui,add, text,xm vsunriseinfo, %suninfo%
 	gui,add,picture,  0xE w500 h200 vsundia h200 ,
