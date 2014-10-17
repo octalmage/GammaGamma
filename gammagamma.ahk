@@ -21,7 +21,7 @@ If !pToken := Gdip_Startup()
 
 
 
-
+;RGB defaults for each gamma level used. 
 6500k=128, 128, 128
 5200k=129, 110, 90
 3800k=130, 86, 38
